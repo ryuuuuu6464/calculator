@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+    <title>calculator</title>
+  </head>
+  <body>
+    <form name="dentaku">
+      <table>
+        <!-- 液晶部分 -->
+        <tr>
+          <td colspan="4">
+            <input type="text" class="display" name="display" value=""disable>
+          </td>
+        </tr>
+
+        <!-- 上から１段目 -->
+        <tr>
+          <td><input type="button" value="7" onclick="get_calc(this)"></td>
+          <td><input type="button" value="8" onclick="get_calc(this)"></td>
+          <td><input type="button" value="9" onclick="get_calc(this)"></td>
+          <td><input type="button" value="+" class="operator" onclick="get_calc(this)"></td>
+        </tr>
+
+        <!-- 上から２段目 -->
+        <tr>
+          <td><input type="button" value="4" onclick="get_calc(this)"></td>
+          <td><input type="button" value="5" onclick="get_calc(this)"></td>
+          <td><input type="button" value="6" onclick="get_calc(this)"></td>
+          <td><input type="button" value="-" class="operator" onclick="get_calc(this)"></td>
+        </tr>
+
+        <!-- 上から３段目 -->
+        <tr>
+          <td><input type="button" value="1" onclick="get_calc(this)"></td>
+          <td><input type="button" value="2" onclick="get_calc(this)"></td>
+          <td><input type="button" value="3" onclick="get_calc(this)"></td>
+          <td><input type="button" value="*" class="operator" onclick="get_calc(this)"></td>
+        </tr>
+
+        <!-- 上から４段目 -->
+        <tr>
+          <td><input type="button" value="0" onclick="get_calc(this)"></td>
+          <td><input type="button" value="00" onclick="get_calc(this)"></td>
+          <td><input type="button" value="." onclick="get_calc(this)"></td>
+          <td><input type="button" value="/" class="operator" onclick="get_calc(this)"></td>
+        </tr>
+
+        <!-- 上から５段目 -->
+        <td><input type="button" value="AC" onclick="get_calc(this)"></td>
+        <td><input type="button" value="=" class="equal" onclick="get_calc(this)"></td>
+      </table>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+table {
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+input {
+  width: 70px;
+  height: 70px;
+  font-size: x-large;
+  background-color: cadetblue;
+}
+
+.display {
+  width: 250px;
+  text-align: center;
+  background-color: #ffffff;
+
+}
