@@ -28,7 +28,7 @@ function get_calc(btn) {
   } else if (value === ".") {
     if (display.value === "") {
       return;
-    
+    }
     if (!isNaN(lastChar)) {
       display.value += value;
     }
